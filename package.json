@@ -1,0 +1,17 @@
+{
+  "name": "api-validation-postman",
+  "version": "1.0.0",
+  "description": "This is the POC for to run postman via cli and so we can integrate it with any CI tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "POSTMANCLI"
+  ],
+  "author": "Krishank Dwivedi",
+  "license": "MIT",
+  "dependencies": {
+    "newman": "^4.5.1"
+  }
+}
