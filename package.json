@@ -4,7 +4,8 @@
   "description": "This is the POC for to run postman via cli and so we can integrate it with any CI tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js",
+    "start": "node index.js"
   },
   "keywords": [
     "POSTMANCLI"

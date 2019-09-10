@@ -3,7 +3,7 @@ const newman = require("newman"); // require newman in your project
 // call newman.run to pass `options` object and wait for callback
 newman.run(
   {
-    collection: require("./test/Postman-Echo.postman_collection.json"),
+    collection: require("./test/Postman-Echo-Test.postman_collection.json"),
     reporters: "cli"
   },
   function(err) {
